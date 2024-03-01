@@ -60,7 +60,7 @@ function display(data) {
   data.forEach(function (element, index) {
     let divcont = document.createElement("div");
     divcont.setAttribute("class","card")
-    divcont.setAttribute("class", "card");
+    
 
     let poster = document.createElement("img");
     poster.setAttribute("src", element.Poster);
